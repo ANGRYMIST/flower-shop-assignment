@@ -20,7 +20,6 @@ header {
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
     display: flex;
     /* align-items: center; */
     /* justify-content: flex; */
@@ -35,15 +34,17 @@ header {
     max-width: 708px;
     max-height: 288px;
     gap: 32px;
+    padding: 197px 0px 0px 240px;
 }
 
 .banner-description{
-    color: #27272799;
+    color: #272727e6;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     width: 634px;
+    padding: 0px 0px 0px 240px;
 }
 
 .btn-primary {
@@ -59,6 +60,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0px 0px 147px 240px;
 }
 
 .btn-secondary {
@@ -77,12 +79,13 @@ header {
 }
 
 .flower-pic-header {
-    width: 635px;
-    height: 800px;
-    position: bottom right;
+    /* padding-top: 50px; */
+    /* padding-left: 97px; */
+    padding: 50px 240px 0px 97px;
 }
 
-/* Main */
+/* Main (Contains many div)*/
+
 .heading-text {
     color: #272727;
     text-align: center;
@@ -125,12 +128,18 @@ header {
     align-items: center;
 }
 
-/* Ongoing Sales Section" */
-.ongoing-sales-section {
+/* Hot Deal Section */
+.HD-Section {
     display: flex;
     background-color: #DC506F1A;
     max-height: 620px;
     width: auto;
+}
+
+/* Instagram Section */
+
+.IG-Section {
+
 }
 
 /* Get The Latest Deals Section */
