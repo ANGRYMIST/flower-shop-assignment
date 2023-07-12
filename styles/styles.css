@@ -52,8 +52,8 @@ header {
 .header {
     /* using Alpha while setting colors (pasting specific color from figma.com) */
     background: #E554731A;;
-    width: 1920px;
-    height: 937px;
+    max-width: 1920px;
+    max-height: 937px;
 
 }
 
@@ -164,19 +164,41 @@ header {
 /* Service Related Info Section */
 .SRI-Box {
     display: flex;
-    padding: 80px;
-    /* justify-items: center; */
-    gap: 60px;
-    background-color: #2727270D;
+    max-width: 1440px;
+    max-height: 320px;
+    margin: 128px 240px;
+    padding: 76px 175px;
+    background: #2727270D;
     align-items: center;
+
+    color: #272727CC;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.SRI-Box-Text-1, .SRI-Box-Text-2, .SRI-Box-Text-3 {
+    padding: 0px;
+}
+
+.SRI-Box-Picture-1 {
+    padding: 0px 20px 16px 0px;
+}
+
+.SRI-Box-Picture-2 {
+    padding: 0px 180px 16px 180px;
+}
+
+.SRI-Box-Picture-3 {
+    padding: 0px 110px 16px 100px;
 }
 
 /* Hot Deal Section */
 .HD-Section {
     display: flex;
     background-color: #DC506F1A;
+    max-width: 1440px;
     max-height: 620px;
-    width: auto;
 }
 
 /* Instagram Section */
