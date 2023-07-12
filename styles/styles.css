@@ -1,0 +1,40 @@
+/* Common Shared Styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+.header {
+    /* using Alpha while setting colors (pasting specific color from figma.com) */
+    background-color: #E554731A;
+    max-width: auto;
+    height: 850px;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    /* border: 197px 972px 365px 240px; */
+}
+
+.banner-text {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    display: flex;
+    /* border: 197px 972px 365px 240px; */
+    max-width: 708px;
+    max-height: 288px;
+    border-right: 97px
+}
+
+.flower-pic-1 {
+    width: 635px;
+    height: 800px;
+    align-items: bottom;
+    border: 50px 240px 4017px 1045px;
+}
