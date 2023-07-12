@@ -7,37 +7,79 @@ body {
 
 /* Header */
 
+header {
+    
+}
+
 .header {
     /* using Alpha while setting colors (pasting specific color from figma.com) */
-    background-color: #E554731A;
-    width: auto;
+    background-color: #DC506F33;
+    width: 1920px;
     height: 850px;
 
 }
 
 .banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
-    align-items: center;
-    justify-content: flex;
-    /* border: 197px 972px 365px 240px; */
+    /* align-items: center; */
+    /* justify-content: flex; */
+    
 }
 
 .banner-text {
     color: #272727;
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 800;
-    display: flex;
-    /* border: 197px 972px 365px 240px; */
+    line-height: normal;
     max-width: 708px;
     max-height: 288px;
-    border-right: 97px
+    gap: 32px;
 }
 
-.flower-pic-1 {
+.banner-description{
+    color: #27272799;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    background: #E55473;
+    display: inline-flex;
+    padding: 18px 39px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.flower-pic-header {
     width: 635px;
     height: 800px;
-    align-items: bottom;
-    border: 50px 240px 4017px 1045px;
+    position: bottom right;
 }
 
 /* Main */
@@ -86,7 +128,7 @@ body {
 /* Ongoing Sales Section" */
 .ongoing-sales-section {
     display: flex;
-    background-color: #E554730D;
+    background-color: #DC506F1A;
     max-height: 620px;
     width: auto;
 }
