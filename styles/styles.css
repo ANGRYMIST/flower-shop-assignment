@@ -1,6 +1,7 @@
 /* Common Shared Styles */
 
 body {
+    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -9,7 +10,7 @@ body {
 .header {
     /* using Alpha while setting colors (pasting specific color from figma.com) */
     background-color: #E554731A;
-    max-width: auto;
+    width: auto;
     height: 850px;
 
 }
@@ -37,4 +38,91 @@ body {
     height: 800px;
     align-items: bottom;
     border: 50px 240px 4017px 1045px;
+}
+
+/* Main */
+.heading-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.heading-text-2 {
+    color: #E55473;
+}
+
+.heading-description {
+    display: flex;
+    width: 594px;
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* OFF-Section */
+.OFF-Section{
+    display: flex;
+}
+
+
+/* Service Related Info Section */
+.SRI-Box {
+    display: flex;
+    padding: 80px;
+    /* justify-items: center; */
+    gap: 60px;
+    background-color: #2727270D;
+    align-items: center;
+}
+
+/* Ongoing Sales Section" */
+.ongoing-sales-section {
+    display: flex;
+    background-color: #E554730D;
+    max-height: 620px;
+    width: auto;
+}
+
+/* Get The Latest Deals Section */
+.background-image-1 {
+    background-image: url('../images/Rectangle\ 9.png');
+}
+
+/* Footer */
+.background-color-1 {
+    background-color: #111010;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-description {
+    display: flex;
+    width: 594px;
+    color: #FFFFFFE5;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-copyrights {
+    color: #FFFFFF66;
 }
