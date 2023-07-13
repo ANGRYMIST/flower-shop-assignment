@@ -25,7 +25,7 @@ body {
     padding: 50px 0px 0px 75px;
 }
 
-.title-styles-white {
+.btnHome-styles-white {
     color: #E55473;
     text-align: center;
     font-size: 50px;
@@ -34,7 +34,7 @@ body {
     line-height: normal;
     
 }
-.title-styles-pink {
+.btnHome-styles-pink {
     color: #000000;
     text-align: center;
     font-size: 50px;
@@ -43,11 +43,9 @@ body {
     line-height: normal;
 }
 
-
-
-header {
+/* header {
     
-}
+} */
 
 .header {
     /* using Alpha while setting colors (pasting specific color from figma.com) */
@@ -107,7 +105,7 @@ header {
     background: rgba(229, 84, 115, 0.950);
 }
 
-.btn-secondary {
+/* .btn-secondary {
     border-radius: 8px;
     width: auto;
     height: auto;
@@ -120,7 +118,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+} */
 
 .flower-pic-header {
     padding: -65px 240px 0px 97px;
@@ -166,7 +164,7 @@ header {
     display: flex;
     max-width: 1440px;
     max-height: 320px;
-    margin: 128px 240px;
+    margin: 128px 240px 128px 240px;
     padding: 76px 175px;
     background: #2727270D;
     align-items: center;
@@ -177,12 +175,20 @@ header {
     font-weight: 600;
 }
 
-.SRI-Box-Text-1, .SRI-Box-Text-2, .SRI-Box-Text-3 {
-    padding: 0px;
+/* .SRI-Box-Text-1 {
+    
+} */
+
+.SRI-Box-Text-2 {
+    padding: 0px 100px;
 }
 
+/* .SRI-Box-Text-3 {
+    
+} */
+
 .SRI-Box-Picture-1 {
-    padding: 0px 20px 16px 0px;
+    padding: 0px 120px 16px 120px;
 }
 
 .SRI-Box-Picture-2 {
@@ -190,24 +196,152 @@ header {
 }
 
 .SRI-Box-Picture-3 {
-    padding: 0px 110px 16px 100px;
+    padding: 0px 50px 16px 30px;
 }
 
 /* Hot Deal Section */
 .HD-Section {
     display: flex;
     background-color: #DC506F1A;
-    max-width: 1440px;
+    max-width: 1922px;
     max-height: 620px;
+}
+
+.HD-Section-Title-Black {
+    max-width: 537px;
+    max-height: 48px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 180px 0px 0px 403px;
+}
+
+.HD-Section-Title-Pink {
+    color: #E55473;
+}
+
+.HD-Section-Description {
+    display: flex;
+    width: 594px;
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 48px 0px 32px 395px;
+}
+
+.HD-Section-Picture {
+    max-width: 318px;
+    max-width: 420px;
+    padding: 100px 429px 100px 186px;
+    
+}
+.btn-secondary {
+    border-radius: 8px;
+    border: 0;
+    width: auto;
+    height: auto;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 162px 603px;
+    cursor: pointer;
 }
 
 /* Instagram Section */
 
 .IG-Section {
+    display: flex;
+    max-width: 1920px;
+    max-height: 784px;
+}
 
+.IG-Section-Title {
+    max-width: 180px;
+    max-height: 48px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 128px 870px 0px 870px;
+}
+
+.IG-Section-Description {
+    display: flex;
+    width: 594px;
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* padding: 48px 0px 32px 395px; */
 }
 
 /* Get The Latest Deals Section */
+
+.GTLD-Section {
+    display: flex;
+    max-width: 1440px;
+    max-height: 449px;
+    background-image: url('../images/Rectangle\ 9.png');
+}
+
+.GTLD-Section-Title {
+    max-width: 180px;
+    max-height: 48px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* padding: 128px 870px 0px 870px; */
+}
+
+.GTLD-Section-Description {
+    display: flex;
+    width: 594px;
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* padding: 48px 0px 32px 395px; */
+}
+
+.btn-tertiary {
+    border-radius: 8px;
+    border: 0;
+    width: auto;
+    height: auto;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 162px 603px;
+    cursor: pointer;
+}
+
 .background-image-1 {
     background-image: url('../images/Rectangle\ 9.png');
 }
