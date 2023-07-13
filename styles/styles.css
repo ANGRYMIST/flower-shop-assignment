@@ -47,11 +47,6 @@ body {
     
 } */
 
-.White-Space-1 {
-    width: 1923px;
-    height: 1539px;
-}
-
 .header {
     /* using Alpha while setting colors (pasting specific color from figma.com) */
     background: #E554731A;;
@@ -119,9 +114,37 @@ body {
 
 /* OFF-Section */
 
-.OFF-Section{
-    display: flex;
+.OFF-Section {
+    display: inline-block;
 }
+
+.OFF-Section-Title {
+    max-width: 413px;
+    max-height: 48;
+    padding: 0px 755px 0px 755px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.OFF-Section-Description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.OFF-Section-Picture {
+    
+}
+
+
 
 /* Service Related Info Section */
 .SRI-Box {
@@ -233,17 +256,10 @@ body {
     background: rgba(229, 84, 115, 0.950);
 }
 
-/* White Space 2 */
-
-.White-Space-2 {
-    background-size: 1923px 1409px;
-}
-
-
 /* Instagram Section */
 
 .IG-Section {
-    display: flex;
+    display: block;
     /* max-width: 1923px;
     max-height: 832px; */
 }
@@ -274,7 +290,7 @@ body {
 }
 
 .IG-Section-Picture-1, .IG-Section-Picture-2, .IG-Section-Picture-3, .IG-Section-Picture-4 {
-    /* display: inline-flex; */
+    /* display: inline-block; */
     padding: 48px 0px 128px 0px;
     max-width: 342px;
     max-height: 396px;
@@ -286,15 +302,15 @@ body {
 }
 
 .IG-Section-Picture-2 {
-    padding-left: 24px;
+    padding-left: 25px;
 }
 
 .IG-Section-Picture-3 {
-    padding-left: 24px;
+    padding-left: 25px;
 }
 
 .IG-Section-Picture-4 {
-    padding-left: 24px;
+    padding-left: 25px;
     padding-right: 240px;
 }
 
@@ -309,7 +325,7 @@ body {
 /* Get The Latest Deals Section */
 
 .GTLD-Section {
-    display: flex;
+    display: block;
     max-width: 1441px;
     max-height: 449px;
     margin: 128px 241px 128px 241px;
@@ -317,30 +333,39 @@ body {
 }
 
 .GTLD-Section-Title {
+    width: 453px;
+    max-height: 48px;
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    /* padding: 122px 534px 16px 534px; */
+    padding: 122px 494px 0px 494px;
 }
 
 .GTLD-Section-Description {
+    width: 265px;
+    max-height: 30px;
     color: #27272799;
     text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* padding: 48px 0px 32px 395px; */
+    padding: 0px 588px 48px 588px;
+}
+
+.Subscribe {
+    display: inline-flex;
 }
 
 #GTLD-Section-Input {
     width: 700px;
     height: 64px;
     border-radius: 8px;
-    borders: 48px 16px 121px 287px;
+    border: 0;
+    margin: 0px 16px 121px 287px;
 }
 
 ::placeholder {
@@ -367,7 +392,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin: 0px 0px 162px 603px;
+    margin: 0px 287px 121px 0px;
     cursor: pointer;
 }
 
